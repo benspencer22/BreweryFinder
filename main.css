@@ -1,0 +1,24 @@
+#book-results .card {
+    width: 8rem;
+  }
+  #infoBox {
+    position: fixed;
+    top: 10vh;
+    right: 2vw;
+    z-index: -1;
+    background-color: rgb(43, 55, 110);
+    -webkit-text-fill-color: white;
+  }
+@media screen and (max-width: 1600px) {
+  #header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #infoBox {
+    width: 15vw;
+  }
+  body > ul {
+    width: 10vw;
+  }
+}
